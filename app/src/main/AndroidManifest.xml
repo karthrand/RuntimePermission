@@ -2,11 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.oude.runtimepermission" >
 
-    <application
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+<application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme"
+        android:theme="@style/AppCompatTheme"
 		android:resizeableActivity = "true">
         <activity
             android:name=".MainActivity"
